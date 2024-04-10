@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  .menu-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    padding: 15px;
+    position: relative;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    list-style-type: none;
+  }
+  
+  .submenu li {
+    padding: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust based on your logo's size */
+    margin-right: 20px;
+  }
+  
