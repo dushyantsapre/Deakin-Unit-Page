@@ -65,13 +65,13 @@
     margin-top: 100px; 
 }
 
-.menu a {
+/* .menu a {
     display: block;
     color: white;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
 .menu a:hover {
     background-color: #ddd;
